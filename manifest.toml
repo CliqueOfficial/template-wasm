@@ -1,0 +1,11 @@
+spec-version = "1"
+name = "clique_wasm_fibonacci"
+type = "Dynamic"
+
+proof-type = ["TEE"]
+
+[input]
+n = { type = "u64", description = "n" }
+
+[output]
+result = { type = "u64", description = "fibonacci sequence for n" }

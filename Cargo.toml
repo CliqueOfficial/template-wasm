@@ -1,0 +1,10 @@
+[package]
+name = "clique-wasm-fibonacci"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib", "lib"]
+
+[dependencies]
+clique-wasm-sdk = "0.1"
